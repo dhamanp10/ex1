@@ -20,6 +20,7 @@ from .views.login import logout
 from .middlewares.auth import auth_middleware
 from django.views.static import serve
 from django.conf.urls import url
+from Eshop import settings
 
 urlpatterns = [
     path('', home.Index.as_view(), name='homepage'),
