@@ -1,0 +1,23 @@
+
+{% extends 'base.html'%}
+
+
+
+{% block content %}
+<div class="container">
+  <div class="p-4 m-4">
+      <div class="col-lg-6 mx-auto border rounded pt-4 ps-2 pe-2 pb-3">
+          <div class="row"><center><h4 class=" alert alert-light ">We received your purchase request . We'll be in touch shortly!</h4></center></div>
+          <center>{{msg}}</center>
+          <center><a href="/">Continue Shoping</a></center>
+          
+      </div>
+  </div>
+</div>
+
+        <h1>Success</h1> 
+        <p>We received your purchase request;<br/> we'll be in touch shortly!</p>
+        <a href="/">Continue Shoping</a>
+      
+
+{% endblock %}
